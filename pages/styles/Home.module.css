@@ -1,0 +1,76 @@
+/* Home.module.css */
+
+/* Estilos existentes */
+
+.chat {
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 32px;
+    padding: 16px;
+  }
+  
+  .chatHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .newConversationButton {
+    background-color: #13a1df;
+    color: #fcfcfc;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newConversationButton:hover {
+    background-color: #1094c4;
+  }
+  
+  .chatBody {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 16px;
+  }
+  
+  .message {
+    background-color: #f4f5fe;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .chatInput {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type='text'] {
+    flex: 1;
+    height: 36px;
+    padding: 4px 8px;
+    border: 1px solid #173576;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .chatInput button {
+    background-color: #13a1df;
+    color: #fcfcfc;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chatInput button:hover {
+    background-color: #1094c4;
+  }
+  
