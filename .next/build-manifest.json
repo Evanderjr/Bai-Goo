@@ -1,37 +1,57 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/25YWKa6AsnC8nMxShHKii/_buildManifest.js",
+    "static/25YWKa6AsnC8nMxShHKii/_ssgManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/main-app.js"
+    "static/chunks/webpack-8feb8de8e722a739.js",
+    "static/chunks/2443530c-d4a6bd7fc7f21e3c.js",
+    "static/chunks/main-app-c03c6193c0ccb03f.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-8feb8de8e722a739.js",
+      "static/chunks/framework-cb5d924716374e49.js",
+      "static/chunks/main-fad6f63f88efcdfd.js",
+      "static/chunks/876-1ae18d89b0880ad6.js",
+      "static/chunks/154-536683ed597c9b9e.js",
+      "static/css/a98b8dfc18c581de.css",
+      "static/chunks/pages/index-bec72812f65e4600.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-8feb8de8e722a739.js",
+      "static/chunks/framework-cb5d924716374e49.js",
+      "static/chunks/main-fad6f63f88efcdfd.js",
+      "static/chunks/pages/_app-b555d5e1eab47959.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-8feb8de8e722a739.js",
+      "static/chunks/framework-cb5d924716374e49.js",
+      "static/chunks/main-fad6f63f88efcdfd.js",
+      "static/chunks/pages/_error-d79168f986538ac0.js"
+    ],
+    "/components/ChatBAIGOO": [
+      "static/chunks/webpack-8feb8de8e722a739.js",
+      "static/chunks/framework-cb5d924716374e49.js",
+      "static/chunks/main-fad6f63f88efcdfd.js",
+      "static/chunks/876-1ae18d89b0880ad6.js",
+      "static/chunks/154-536683ed597c9b9e.js",
+      "static/css/ffe6a24ba118e4aa.css",
+      "static/chunks/pages/components/ChatBAIGOO-5f8debf048535b9d.js"
+    ],
+    "/components/app": [
+      "static/chunks/webpack-8feb8de8e722a739.js",
+      "static/chunks/framework-cb5d924716374e49.js",
+      "static/chunks/main-fad6f63f88efcdfd.js",
+      "static/chunks/fec483df-1e1b24c47d07ebf1.js",
+      "static/chunks/876-1ae18d89b0880ad6.js",
+      "static/chunks/422-1c2c3a6366a4a8d2.js",
+      "static/chunks/pages/components/app-69631afccd475ac0.js"
     ]
   },
   "ampFirstPages": []
