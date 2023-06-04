@@ -531,6 +531,11 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\Evand\\OneDrive\\Documentos\\Projecto\\nome-do-projeto\\pages\\components\\Chat.module.css#": {
+      "id": "./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./pages/components/Chat.module.css",
+      "name": "default",
+      "chunks": []
+    },
     "C:\\Users\\Evand\\OneDrive\\Documentos\\Projecto\\nome-do-projeto\\pages\\styles\\Home.module.css#": {
       "id": "./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./pages/styles/Home.module.css",
       "name": "default",

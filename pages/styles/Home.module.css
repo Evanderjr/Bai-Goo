@@ -3,7 +3,7 @@
   flex-direction: column;
   min-height: 100vh;
   padding: 20px;
-  background-image: url("/images/back.svg");
+  background-color: #13a1df;
 }
 
 .header {
@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  background-color: #173576;
+  background-color: #20258d;
   background-color: rgba(255, 255, 255, 0);
   padding: 10px;
   border-radius: 10px;
@@ -19,6 +19,7 @@
 
 .logo img {
   height: 50px;
+  
 }
 
 .navbar {
@@ -51,7 +52,12 @@
   font-weight: bold;
 }
 
-.description {
+.sectionTitle {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.sectionDescription {
   font-size: 18px;
   color: #ffffff;
 }
@@ -74,7 +80,7 @@
 .navbar a {
   margin-left: 10px;
   text-decoration: none;
-  color: #173576;
+  color: #20258d;
 }
 
 .main {
@@ -106,17 +112,17 @@
 }
 
 /* Resto do código CSS continua igual */
-.rectangle {
+/*.rectangle {
   background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 1);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
   margin-bottom: 40px;
   animation: fadeIn 1s ease;
-}
+}*/
 
-@keyframes fadeIn {
+/*@keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -128,18 +134,18 @@
 }
 
 .rectangleTitle {
-  color: #173576;
+  color: #20258d;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 .rectangleContent {
-  color: #173576;
+  color: #20258d;
   font-size: 16px;
 }
 
 .chatTitle {
-  color: #173576;
+  color: #20258d;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -147,11 +153,11 @@
 
 
 .chatSection {
-  background-color: #b6b7b9;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   margin-top: 40px;
-  height: 400px; /* Aumente a altura conforme necessário */
+  height: 400px; /* Aumente a altura conforme necessário
   overflow-y: auto;
 }
 
@@ -177,7 +183,7 @@
   background-color: #ffffff;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .messageText {
@@ -208,7 +214,7 @@
 
 .chatInput button {
   height: 40px;
-  background-color: #173576;
+  background-color: #20258d;
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -225,7 +231,7 @@
 
 .newConversationButton,
 .clearConversationButton {
-  background-color: #173576;
+  background-color: #20258d;
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -249,9 +255,10 @@
 .sendMessageButton:hover{
 
   transform: scale(1.1);  
-}
+}*/
+
 .footer {
-  background-color: #173576;
+  background-color: #20258d;
   background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
   padding: 20px;
@@ -261,16 +268,6 @@
 
 .footer p {
   margin: 0;
-}
-
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .svg-image {
@@ -283,10 +280,53 @@
   background-size: cover;
 }
 
-.button {
-  transition: transform 0.3s;
+.button1 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #173576;
+  font-size: 16px;
+  font-weight: none;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  margin-bottom: 10px;
 }
 
-.button:hover {
-  transform: scale(1.2);
+.button1:hover {
+  background-color: #173576;
+  color: #ffffff;
 }
+
+.button2 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #173576;
+  font-size: 16px;
+  font-weight: none;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  margin-left: 10px;
+}
+
+.button2:hover {
+  background-color: #173576;
+  color: #ffffff;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
