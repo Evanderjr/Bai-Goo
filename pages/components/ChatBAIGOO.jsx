@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function ChatBAIGOO() {
   const [messages, setMessages] = useState([]);
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -18,7 +18,8 @@ function ChatBAIGOO() {
       });
 
       // Extrair a resposta da API
-      const responseData = response.data;
+      const responseData = response.data.answer.content;
+      console.log(responseData);
 
       // Adicionar a mensagem enviada ao estado de mensagens
       setMessages((prevMessages) => [
@@ -29,8 +30,9 @@ function ChatBAIGOO() {
       // Adicionar a resposta da inteligência artificial ao estado de mensagens
       setMessages((prevMessages) => [
         ...prevMessages,
-        { text: responseData.answer, sender: 'chatbot' },
+        { text: responseData, sender: 'chatbot' },
       ]);
+
     } catch (error) {
       console.error('Erro na requisição:', error);
       // Lidar com erros de requisição, se necessário
@@ -56,6 +58,8 @@ function ChatBAIGOO() {
               </div>
             </div>
           ))}
+
+          
         </div>
         <div className={styles.chatInput}>
           <form onSubmit={handleSubmit}>
